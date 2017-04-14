@@ -1,0 +1,2 @@
+# FunnyHorizontalCollectionView
+一个可以横向滑动的collectionview,模仿airbnb。使用了两种collection的点击传值方式。可根据自己的需求配置
