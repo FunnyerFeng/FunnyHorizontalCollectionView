@@ -20,6 +20,7 @@
 		B42C495A1E9F5DB000DFF47C /* show01.png in Resources */ = {isa = PBXBuildFile; fileRef = B42C49591E9F5DB000DFF47C /* show01.png */; };
 		B42C495D1E9F5EB800DFF47C /* YYBHCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C495C1E9F5EB800DFF47C /* YYBHCModel.m */; };
 		B42C49601E9F6EE300DFF47C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C495F1E9F6EE300DFF47C /* TwoViewController.m */; };
+		B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C49681E9F7B4400DFF47C /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		B42C495C1E9F5EB800DFF47C /* YYBHCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBHCModel.m; sourceTree = "<group>"; };
 		B42C495E1E9F6EE300DFF47C /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		B42C495F1E9F6EE300DFF47C /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		B42C49671E9F7B4400DFF47C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		B42C49681E9F7B4400DFF47C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				B42C49231E9F5BC700DFF47C /* AppDelegate.m */,
 				B42C49251E9F5BC700DFF47C /* ViewController.h */,
 				B42C49261E9F5BC700DFF47C /* ViewController.m */,
+				B42C49671E9F7B4400DFF47C /* OneViewController.h */,
+				B42C49681E9F7B4400DFF47C /* OneViewController.m */,
 				B42C495E1E9F6EE300DFF47C /* TwoViewController.h */,
 				B42C495F1E9F6EE300DFF47C /* TwoViewController.m */,
 				B42C49591E9F5DB000DFF47C /* show01.png */,
@@ -315,6 +320,7 @@
 				B42C49581E9F5BFD00DFF47C /* YYBHorizontalCollectionCell.m in Sources */,
 				B42C49211E9F5BC700DFF47C /* main.m in Sources */,
 				B42C495D1E9F5EB800DFF47C /* YYBHCModel.m in Sources */,
+				B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +560,7 @@
 				B42C494B1E9F5BC700DFF47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B42C494C1E9F5BC700DFF47C /* Build configuration list for PBXNativeTarget "FunnyHorizontalCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +569,7 @@
 				B42C494E1E9F5BC700DFF47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B42C494F1E9F5BC700DFF47C /* Build configuration list for PBXNativeTarget "FunnyHorizontalCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +578,7 @@
 				B42C49511E9F5BC700DFF47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,9 @@
 
 #import "TwoViewController.h"
 
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
 @interface TwoViewController ()
 
 @end
@@ -17,6 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+    UIImageView *topimageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 200)];
+    topimageView.image = [UIImage imageNamed:@"show01.png"];
+    [self.view addSubview:topimageView];
 }
 
 - (void)didReceiveMemoryWarning {

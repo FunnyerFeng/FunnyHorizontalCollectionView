@@ -14,15 +14,7 @@
 
 @interface YYBHorizontalCollectionCell ()
 
-/**
- 用于展示的imageView
- */
-@property(nonatomic,strong)UIImageView *displayImageView;
 
-/**
- imageView的描述文字
- */
-@property(nonatomic,strong)UILabel *descripLabel;
 
 @end
 
@@ -58,6 +50,7 @@
 - (UILabel *)descripLabel{
     if (!_descripLabel) {
         _descripLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.displayImageView.frame) + Image_Label_Space, self.frame.size.width, 20)];
+        _descripLabel.textColor = [UIColor whiteColor];
         _descripLabel.textAlignment = NSTextAlignmentCenter;
         _descripLabel.font = DescripLabelFont;
     }
