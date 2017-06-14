@@ -27,6 +27,15 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = [UIColor whiteColor];
     
+    NSMutableArray *dataArray1 = [NSMutableArray arrayWithCapacity:10];
+    
+    NSMutableArray *dataArray3 = [NSMutableArray arrayWithCapacity:10];
+    NSMutableArray *dataArray4 = [NSMutableArray arrayWithCapacity:10];
+    NSMutableArray *dataArray5 = [NSMutableArray arrayWithCapacity:10];
+    NSMutableArray *dataArray6 = [NSMutableArray arrayWithCapacity:10];
+    
+    NSMutableArray *dataArray9 = [NSMutableArray arrayWithCapacity:10];
+    
     NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:10];
     for (int i = 0; i < 10; i ++) {
         YYBHCModel *model = [[YYBHCModel alloc]init];
