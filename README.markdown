@@ -8,3 +8,12 @@
 ```objc
 self.automaticallyAdjustsScrollViewInsets = NO;
 ```
+
+
+## Support
+
+由于本人水平有限，有任何代码上的建议都可以给我发issue或者发邮件联系我
+
+邮箱地址：funnyfengzl@163.com
+
+目前正在研究实现airbnb主页的点击跳转效果，如果有好的实现方法，欢迎推荐，一起学习

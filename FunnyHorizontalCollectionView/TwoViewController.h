@@ -10,4 +10,6 @@
 
 @interface TwoViewController : UIViewController
 
+@property(nonatomic,strong)UIImage *showImage;
+
 @end

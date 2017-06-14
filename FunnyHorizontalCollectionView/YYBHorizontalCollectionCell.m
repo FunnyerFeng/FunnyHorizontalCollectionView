@@ -14,8 +14,6 @@
 
 @interface YYBHorizontalCollectionCell ()
 
-
-
 @end
 
 @implementation YYBHorizontalCollectionCell
@@ -28,6 +26,7 @@
         [self.contentView addSubview:self.displayImageView];
         
         [self.contentView addSubview:self.descripLabel];
+
     }
     return self;
 }

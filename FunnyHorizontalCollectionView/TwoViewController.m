@@ -24,11 +24,26 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor grayColor];
     
-    UIImageView *topimageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 200)];
-    topimageView.image = [UIImage imageNamed:@"show01.png"];
+    UIImageView *topimageView = [[UIImageView alloc]initWithImage:self.showImage];
+    topimageView.frame = CGRectMake(0, 0, kScreenWidth, 200);
     [self.view addSubview:topimageView];
+    
+    
+    UIButton *clipbutton = [UIButton buttonWithType:UIButtonTypeCustom];
+    clipbutton.frame = CGRectMake(100, 300, 100, 100);
+    [clipbutton setBackgroundColor:[UIColor redColor]];
+    [clipbutton addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:clipbutton];
+}
+
+- (void)click{
+    
+    [self setModalPresentationStyle:UIModalPresentationCustom];
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

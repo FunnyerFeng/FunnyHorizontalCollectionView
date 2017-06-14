@@ -9,8 +9,8 @@
 #import "OneViewController.h"
 #import "YYBHorizontalCollectionView.h"
 #import "YYBHCModel.h"
-#import "TwoViewController.h"
 #import "YYBHorizontalCollectionCell.h"
+#import "TwoViewController.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -25,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.automaticallyAdjustsScrollViewInsets = NO;
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:10];
     for (int i = 0; i < 10; i ++) {
@@ -36,6 +37,7 @@
     NSArray *models = (NSArray *)dataArray;
     
     
+
     YYBHorizontalCollectionView *hcollectionview = [[YYBHorizontalCollectionView alloc]initWithFrame:CGRectMake(0, 100, kScreenWidth, 100) ItemSize:CGSizeMake((kScreenWidth-20*3)/2, 80) MinimumLineSpacing:20 MinimumInteritemSpacing:0];
     hcollectionview.models = models;
     hcollectionview.yybdelegate = self;
@@ -44,42 +46,50 @@
     //    hcollectionview.yybHorizontalCollectionBlock = ^(UICollectionView *collectionView, NSIndexPath *indexPath) {
     //        NSLog(@"点击了第：%ld 个item(block方式)",indexPath.item);
     //    };
+    
 }
 
 #pragma mark - YYBHorizontalCollectionViewDelegate
 - (void)YYBHorizontalcollectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"点击了第：%ld 个item（delegate方式）",indexPath.item);
    YYBHorizontalCollectionCell *selectCell = (YYBHorizontalCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    UIImageView *moveImageview = selectCell.displayImageView;
     
-    CGRect targetFrame = [selectCell convertRect:moveImageview.frame toView:self.view];
+    UIImageView *moveImageview = [[UIImageView alloc]initWithImage:selectCell.displayImageView.image];
+
+    if (!moveImageview) return;
     
-    NSLog(@"%@",NSStringFromCGRect(targetFrame));
-   
+    CGRect targetFrame = [selectCell convertRect:selectCell.displayImageView.frame toView:self.view];
+
+    moveImageview.frame = targetFrame;
     
-    TwoViewController *twovc = [[TwoViewController alloc]init];
-    
-     [twovc setModalTransitionStyle:UIModalTransitionStylePartialCurl];
-    
-    [self presentViewController:twovc animated:YES completion:nil];
-    
+    [self.view addSubview:moveImageview];
+
+    [UIView animateKeyframesWithDuration:.35f delay:0 options:UIViewKeyframeAnimationOptionLayoutSubviews animations:^{
+        
+        moveImageview.frame = CGRectMake(0, 0, kScreenWidth, 200);
+        
+        [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+        
+        
+    } completion:^(BOOL finished) {
+        
+        if (finished) {
+            
+            TwoViewController *twoVC = [[TwoViewController alloc]init];
+            twoVC.showImage = moveImageview.image;
+
+            [twoVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+            
+            [self presentViewController:twoVC animated:YES completion:^{
+                moveImageview.alpha = 0;
+                [moveImageview removeFromSuperview];
+            }];
+
+        }
+        
+    }];
     
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
