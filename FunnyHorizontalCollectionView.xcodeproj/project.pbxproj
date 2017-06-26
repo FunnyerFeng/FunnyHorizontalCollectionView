@@ -22,6 +22,7 @@
 		B42C49601E9F6EE300DFF47C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C495F1E9F6EE300DFF47C /* TwoViewController.m */; };
 		B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C49681E9F7B4400DFF47C /* OneViewController.m */; };
 		B42C6F051F00AA1100614F3B /* FunnyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F041F00AA1100614F3B /* FunnyTextView.m */; };
+		B42C6F081F00B0AA00614F3B /* SophiaTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F071F00B0AA00614F3B /* SophiaTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		B42C49681E9F7B4400DFF47C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		B42C6F031F00AA1100614F3B /* FunnyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyTextView.h; sourceTree = "<group>"; };
 		B42C6F041F00AA1100614F3B /* FunnyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyTextView.m; sourceTree = "<group>"; };
+		B42C6F061F00B0AA00614F3B /* SophiaTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SophiaTestView.h; sourceTree = "<group>"; };
+		B42C6F071F00B0AA00614F3B /* SophiaTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SophiaTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				B42C495F1E9F6EE300DFF47C /* TwoViewController.m */,
 				B42C6F031F00AA1100614F3B /* FunnyTextView.h */,
 				B42C6F041F00AA1100614F3B /* FunnyTextView.m */,
+				B42C6F061F00B0AA00614F3B /* SophiaTestView.h */,
+				B42C6F071F00B0AA00614F3B /* SophiaTestView.m */,
 				B42C49591E9F5DB000DFF47C /* show01.png */,
 				B42C49281E9F5BC700DFF47C /* Main.storyboard */,
 				B42C492B1E9F5BC700DFF47C /* Assets.xcassets */,
@@ -322,6 +327,7 @@
 				B42C49271E9F5BC700DFF47C /* ViewController.m in Sources */,
 				B42C6F051F00AA1100614F3B /* FunnyTextView.m in Sources */,
 				B42C49571E9F5BFD00DFF47C /* YYBHorizontalCollectionView.m in Sources */,
+				B42C6F081F00B0AA00614F3B /* SophiaTestView.m in Sources */,
 				B42C49241E9F5BC700DFF47C /* AppDelegate.m in Sources */,
 				B42C49581E9F5BFD00DFF47C /* YYBHorizontalCollectionCell.m in Sources */,
 				B42C49211E9F5BC700DFF47C /* main.m in Sources */,
