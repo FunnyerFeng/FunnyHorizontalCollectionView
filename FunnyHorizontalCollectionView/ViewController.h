@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SortNameTool.h"
+#import "TestFunnyViewController.h"
 
 @interface ViewController : UIViewController
 

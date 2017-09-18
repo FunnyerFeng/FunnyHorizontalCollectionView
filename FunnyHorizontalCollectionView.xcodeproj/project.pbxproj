@@ -23,45 +23,7 @@
 		B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C49681E9F7B4400DFF47C /* OneViewController.m */; };
 		B42C6F051F00AA1100614F3B /* FunnyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F041F00AA1100614F3B /* FunnyTextView.m */; };
 		B42C6F081F00B0AA00614F3B /* SophiaTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F071F00B0AA00614F3B /* SophiaTestView.m */; };
-		B43D32E21F6FB4D800E2EEE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D327D1F6FB4D800E2EEE5 /* AppDelegate.m */; };
-		B43D32E31F6FB4D800E2EEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43D327E1F6FB4D800E2EEE5 /* Assets.xcassets */; };
-		B43D32E41F6FB4D800E2EEE5 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32811F6FB4D800E2EEE5 /* BaseTableView.m */; };
-		B43D32E51F6FB4D800E2EEE5 /* FunnyData.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32831F6FB4D800E2EEE5 /* FunnyData.m */; };
-		B43D32E61F6FB4D800E2EEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43D32841F6FB4D800E2EEE5 /* LaunchScreen.storyboard */; };
-		B43D32E71F6FB4D800E2EEE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43D32861F6FB4D800E2EEE5 /* Main.storyboard */; };
-		B43D32E81F6FB4D800E2EEE5 /* BMClientTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32891F6FB4D800E2EEE5 /* BMClientTableView.m */; };
-		B43D32E91F6FB4D800E2EEE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B43D328A1F6FB4D800E2EEE5 /* Info.plist */; };
-		B43D32EA1F6FB4D800E2EEE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D328B1F6FB4D800E2EEE5 /* main.m */; };
-		B43D32EB1F6FB4D800E2EEE5 /* NameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D328D1F6FB4D800E2EEE5 /* NameModel.m */; };
-		B43D32EC1F6FB4D800E2EEE5 /* SortNameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D328F1F6FB4D800E2EEE5 /* SortNameTool.m */; };
-		B43D32ED1F6FB4D800E2EEE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32911F6FB4D800E2EEE5 /* ViewController.m */; };
-		B43D32EE1F6FB4D800E2EEE5 /* AddressBookNameSort.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = B43D32951F6FB4D800E2EEE5 /* AddressBookNameSort.xcworkspace */; };
-		B43D32EF1F6FB4D800E2EEE5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B43D32961F6FB4D800E2EEE5 /* Podfile */; };
-		B43D32F01F6FB4D800E2EEE5 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = B43D32971F6FB4D800E2EEE5 /* Podfile.lock */; };
-		B43D32F11F6FB4D800E2EEE5 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = B43D32991F6FB4D800E2EEE5 /* Manifest.lock */; };
-		B43D32F21F6FB4D800E2EEE5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B43D329B1F6FB4D800E2EEE5 /* LICENSE */; };
-		B43D32F31F6FB4D800E2EEE5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D329E1F6FB4D800E2EEE5 /* MASCompositeConstraint.m */; };
-		B43D32F41F6FB4D800E2EEE5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32A11F6FB4D800E2EEE5 /* MASConstraint.m */; };
-		B43D32F51F6FB4D800E2EEE5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32A31F6FB4D800E2EEE5 /* MASConstraintMaker.m */; };
-		B43D32F61F6FB4D800E2EEE5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32A51F6FB4D800E2EEE5 /* MASLayoutConstraint.m */; };
-		B43D32F71F6FB4D800E2EEE5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32A91F6FB4D800E2EEE5 /* MASViewAttribute.m */; };
-		B43D32F81F6FB4D800E2EEE5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32AB1F6FB4D800E2EEE5 /* MASViewConstraint.m */; };
-		B43D32F91F6FB4D800E2EEE5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32AD1F6FB4D800E2EEE5 /* NSArray+MASAdditions.m */; };
-		B43D32FA1F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32B01F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		B43D32FB1F6FB4D800E2EEE5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32B21F6FB4D800E2EEE5 /* View+MASAdditions.m */; };
-		B43D32FC1F6FB4D800E2EEE5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32B51F6FB4D800E2EEE5 /* ViewController+MASAdditions.m */; };
-		B43D32FD1F6FB4D800E2EEE5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B43D32B61F6FB4D800E2EEE5 /* README.md */; };
-		B43D32FE1F6FB4D800E2EEE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B43D32BC1F6FB4D800E2EEE5 /* Info.plist */; };
-		B43D32FF1F6FB4D800E2EEE5 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32BD1F6FB4D800E2EEE5 /* Masonry-dummy.m */; };
-		B43D33001F6FB4D800E2EEE5 /* Masonry.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B43D32C11F6FB4D800E2EEE5 /* Masonry.xcconfig */; };
-		B43D33011F6FB4D800E2EEE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B43D32C31F6FB4D800E2EEE5 /* Info.plist */; };
-		B43D33021F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = B43D32C41F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.markdown */; };
-		B43D33031F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B43D32C51F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.plist */; };
-		B43D33041F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D32C61F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-dummy.m */; };
-		B43D33051F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = B43D32C71F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-frameworks.sh */; };
-		B43D33061F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = B43D32C81F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-resources.sh */; };
-		B43D33071F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B43D32CA1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.debug.xcconfig */; };
-		B43D33081F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B43D32CC1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.release.xcconfig */; };
+		B43D33321F6FB8EF00E2EEE5 /* TestFunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,27 +40,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B42C491B1E9F5BC700DFF47C;
 			remoteInfo = FunnyHorizontalCollectionView;
-		};
-		B43D33161F6FB4D800E2EEE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B43D32921F6FB4D800E2EEE5 /* AddressBookNameSort.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B42B9C311EF4C67D00B8CC69;
-			remoteInfo = AddressBookNameSort;
-		};
-		B43D33231F6FB4D800E2EEE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B43D32B71F6FB4D800E2EEE5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C4D91AF75260A9A5EE418B920DC0F45;
-			remoteInfo = Masonry;
-		};
-		B43D33251F6FB4D800E2EEE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B43D32B71F6FB4D800E2EEE5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E2DD4943D8B5368C03AB7D3ECAE3ED28;
-			remoteInfo = "Pods-AddressBookNameSort";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -134,74 +75,8 @@
 		B42C6F041F00AA1100614F3B /* FunnyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyTextView.m; sourceTree = "<group>"; };
 		B42C6F061F00B0AA00614F3B /* SophiaTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SophiaTestView.h; sourceTree = "<group>"; };
 		B42C6F071F00B0AA00614F3B /* SophiaTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SophiaTestView.m; sourceTree = "<group>"; };
-		B43D327C1F6FB4D800E2EEE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B43D327D1F6FB4D800E2EEE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B43D327E1F6FB4D800E2EEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B43D32801F6FB4D800E2EEE5 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
-		B43D32811F6FB4D800E2EEE5 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
-		B43D32821F6FB4D800E2EEE5 /* FunnyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyData.h; sourceTree = "<group>"; };
-		B43D32831F6FB4D800E2EEE5 /* FunnyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyData.m; sourceTree = "<group>"; };
-		B43D32851F6FB4D800E2EEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B43D32871F6FB4D800E2EEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B43D32881F6FB4D800E2EEE5 /* BMClientTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMClientTableView.h; sourceTree = "<group>"; };
-		B43D32891F6FB4D800E2EEE5 /* BMClientTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMClientTableView.m; sourceTree = "<group>"; };
-		B43D328A1F6FB4D800E2EEE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43D328B1F6FB4D800E2EEE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B43D328C1F6FB4D800E2EEE5 /* NameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameModel.h; sourceTree = "<group>"; };
-		B43D328D1F6FB4D800E2EEE5 /* NameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameModel.m; sourceTree = "<group>"; };
-		B43D328E1F6FB4D800E2EEE5 /* SortNameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortNameTool.h; sourceTree = "<group>"; };
-		B43D328F1F6FB4D800E2EEE5 /* SortNameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortNameTool.m; sourceTree = "<group>"; };
-		B43D32901F6FB4D800E2EEE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B43D32911F6FB4D800E2EEE5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B43D32921F6FB4D800E2EEE5 /* AddressBookNameSort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AddressBookNameSort.xcodeproj; sourceTree = "<group>"; };
-		B43D32951F6FB4D800E2EEE5 /* AddressBookNameSort.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = AddressBookNameSort.xcworkspace; sourceTree = "<group>"; };
-		B43D32961F6FB4D800E2EEE5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		B43D32971F6FB4D800E2EEE5 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
-		B43D32991F6FB4D800E2EEE5 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
-		B43D329B1F6FB4D800E2EEE5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B43D329D1F6FB4D800E2EEE5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		B43D329E1F6FB4D800E2EEE5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B43D329F1F6FB4D800E2EEE5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B43D32A01F6FB4D800E2EEE5 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		B43D32A11F6FB4D800E2EEE5 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		B43D32A21F6FB4D800E2EEE5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		B43D32A31F6FB4D800E2EEE5 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		B43D32A41F6FB4D800E2EEE5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		B43D32A51F6FB4D800E2EEE5 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		B43D32A61F6FB4D800E2EEE5 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		B43D32A71F6FB4D800E2EEE5 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		B43D32A81F6FB4D800E2EEE5 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		B43D32A91F6FB4D800E2EEE5 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		B43D32AA1F6FB4D800E2EEE5 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		B43D32AB1F6FB4D800E2EEE5 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		B43D32AC1F6FB4D800E2EEE5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		B43D32AD1F6FB4D800E2EEE5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B43D32AE1F6FB4D800E2EEE5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B43D32AF1F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		B43D32B01F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		B43D32B11F6FB4D800E2EEE5 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		B43D32B21F6FB4D800E2EEE5 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		B43D32B31F6FB4D800E2EEE5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		B43D32B41F6FB4D800E2EEE5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		B43D32B51F6FB4D800E2EEE5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		B43D32B61F6FB4D800E2EEE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B43D32B71F6FB4D800E2EEE5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
-		B43D32BC1F6FB4D800E2EEE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43D32BD1F6FB4D800E2EEE5 /* Masonry-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		B43D32BE1F6FB4D800E2EEE5 /* Masonry-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		B43D32BF1F6FB4D800E2EEE5 /* Masonry-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		B43D32C01F6FB4D800E2EEE5 /* Masonry.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
-		B43D32C11F6FB4D800E2EEE5 /* Masonry.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		B43D32C31F6FB4D800E2EEE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43D32C41F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-AddressBookNameSort-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B43D32C51F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-AddressBookNameSort-acknowledgements.plist"; sourceTree = "<group>"; };
-		B43D32C61F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookNameSort-dummy.m"; sourceTree = "<group>"; };
-		B43D32C71F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-AddressBookNameSort-frameworks.sh"; sourceTree = "<group>"; };
-		B43D32C81F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-AddressBookNameSort-resources.sh"; sourceTree = "<group>"; };
-		B43D32C91F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookNameSort-umbrella.h"; sourceTree = "<group>"; };
-		B43D32CA1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookNameSort.debug.xcconfig"; sourceTree = "<group>"; };
-		B43D32CB1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookNameSort.modulemap"; sourceTree = "<group>"; };
-		B43D32CC1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookNameSort.release.xcconfig"; sourceTree = "<group>"; };
+		B43D33301F6FB8EF00E2EEE5 /* TestFunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFunnyViewController.h; sourceTree = "<group>"; };
+		B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFunnyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,7 +127,7 @@
 		B42C491E1E9F5BC700DFF47C /* FunnyHorizontalCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				B43D327A1F6FB4D800E2EEE5 /* AddressBookNameSort */,
+				B43D332E1F6FB8EF00E2EEE5 /* Module */,
 				B42C49521E9F5BE600DFF47C /* cellectionclass */,
 				B42C49221E9F5BC700DFF47C /* AppDelegate.h */,
 				B42C49231E9F5BC700DFF47C /* AppDelegate.m */,
@@ -315,161 +190,21 @@
 			name = cellectionclass;
 			sourceTree = "<group>";
 		};
-		B43D327A1F6FB4D800E2EEE5 /* AddressBookNameSort */ = {
+		B43D332E1F6FB8EF00E2EEE5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				B43D327B1F6FB4D800E2EEE5 /* AddressBookNameSort */,
-				B43D32921F6FB4D800E2EEE5 /* AddressBookNameSort.xcodeproj */,
-				B43D32951F6FB4D800E2EEE5 /* AddressBookNameSort.xcworkspace */,
-				B43D32961F6FB4D800E2EEE5 /* Podfile */,
-				B43D32971F6FB4D800E2EEE5 /* Podfile.lock */,
-				B43D32981F6FB4D800E2EEE5 /* Pods */,
+				B43D332F1F6FB8EF00E2EEE5 /* TestFunnyViewController */,
 			);
-			name = AddressBookNameSort;
-			path = Module/AddressBookNameSort;
+			path = Module;
 			sourceTree = "<group>";
 		};
-		B43D327B1F6FB4D800E2EEE5 /* AddressBookNameSort */ = {
+		B43D332F1F6FB8EF00E2EEE5 /* TestFunnyViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B43D327C1F6FB4D800E2EEE5 /* AppDelegate.h */,
-				B43D327D1F6FB4D800E2EEE5 /* AppDelegate.m */,
-				B43D327E1F6FB4D800E2EEE5 /* Assets.xcassets */,
-				B43D327F1F6FB4D800E2EEE5 /* Base */,
-				B43D32841F6FB4D800E2EEE5 /* LaunchScreen.storyboard */,
-				B43D32861F6FB4D800E2EEE5 /* Main.storyboard */,
-				B43D32881F6FB4D800E2EEE5 /* BMClientTableView.h */,
-				B43D32891F6FB4D800E2EEE5 /* BMClientTableView.m */,
-				B43D328A1F6FB4D800E2EEE5 /* Info.plist */,
-				B43D328B1F6FB4D800E2EEE5 /* main.m */,
-				B43D328C1F6FB4D800E2EEE5 /* NameModel.h */,
-				B43D328D1F6FB4D800E2EEE5 /* NameModel.m */,
-				B43D328E1F6FB4D800E2EEE5 /* SortNameTool.h */,
-				B43D328F1F6FB4D800E2EEE5 /* SortNameTool.m */,
-				B43D32901F6FB4D800E2EEE5 /* ViewController.h */,
-				B43D32911F6FB4D800E2EEE5 /* ViewController.m */,
+				B43D33301F6FB8EF00E2EEE5 /* TestFunnyViewController.h */,
+				B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */,
 			);
-			path = AddressBookNameSort;
-			sourceTree = "<group>";
-		};
-		B43D327F1F6FB4D800E2EEE5 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				B43D32801F6FB4D800E2EEE5 /* BaseTableView.h */,
-				B43D32811F6FB4D800E2EEE5 /* BaseTableView.m */,
-				B43D32821F6FB4D800E2EEE5 /* FunnyData.h */,
-				B43D32831F6FB4D800E2EEE5 /* FunnyData.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		B43D32931F6FB4D800E2EEE5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B43D33171F6FB4D800E2EEE5 /* AddressBookNameSort.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B43D32981F6FB4D800E2EEE5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B43D32991F6FB4D800E2EEE5 /* Manifest.lock */,
-				B43D329A1F6FB4D800E2EEE5 /* Masonry */,
-				B43D32B71F6FB4D800E2EEE5 /* Pods.xcodeproj */,
-				B43D32BA1F6FB4D800E2EEE5 /* Target Support Files */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		B43D329A1F6FB4D800E2EEE5 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				B43D329B1F6FB4D800E2EEE5 /* LICENSE */,
-				B43D329C1F6FB4D800E2EEE5 /* Masonry */,
-				B43D32B61F6FB4D800E2EEE5 /* README.md */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		B43D329C1F6FB4D800E2EEE5 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				B43D329D1F6FB4D800E2EEE5 /* MASCompositeConstraint.h */,
-				B43D329E1F6FB4D800E2EEE5 /* MASCompositeConstraint.m */,
-				B43D329F1F6FB4D800E2EEE5 /* MASConstraint+Private.h */,
-				B43D32A01F6FB4D800E2EEE5 /* MASConstraint.h */,
-				B43D32A11F6FB4D800E2EEE5 /* MASConstraint.m */,
-				B43D32A21F6FB4D800E2EEE5 /* MASConstraintMaker.h */,
-				B43D32A31F6FB4D800E2EEE5 /* MASConstraintMaker.m */,
-				B43D32A41F6FB4D800E2EEE5 /* MASLayoutConstraint.h */,
-				B43D32A51F6FB4D800E2EEE5 /* MASLayoutConstraint.m */,
-				B43D32A61F6FB4D800E2EEE5 /* Masonry.h */,
-				B43D32A71F6FB4D800E2EEE5 /* MASUtilities.h */,
-				B43D32A81F6FB4D800E2EEE5 /* MASViewAttribute.h */,
-				B43D32A91F6FB4D800E2EEE5 /* MASViewAttribute.m */,
-				B43D32AA1F6FB4D800E2EEE5 /* MASViewConstraint.h */,
-				B43D32AB1F6FB4D800E2EEE5 /* MASViewConstraint.m */,
-				B43D32AC1F6FB4D800E2EEE5 /* NSArray+MASAdditions.h */,
-				B43D32AD1F6FB4D800E2EEE5 /* NSArray+MASAdditions.m */,
-				B43D32AE1F6FB4D800E2EEE5 /* NSArray+MASShorthandAdditions.h */,
-				B43D32AF1F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				B43D32B01F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				B43D32B11F6FB4D800E2EEE5 /* View+MASAdditions.h */,
-				B43D32B21F6FB4D800E2EEE5 /* View+MASAdditions.m */,
-				B43D32B31F6FB4D800E2EEE5 /* View+MASShorthandAdditions.h */,
-				B43D32B41F6FB4D800E2EEE5 /* ViewController+MASAdditions.h */,
-				B43D32B51F6FB4D800E2EEE5 /* ViewController+MASAdditions.m */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		B43D32B81F6FB4D800E2EEE5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B43D33241F6FB4D800E2EEE5 /* Masonry.framework */,
-				B43D33261F6FB4D800E2EEE5 /* Pods_AddressBookNameSort.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B43D32BA1F6FB4D800E2EEE5 /* Target Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B43D32BB1F6FB4D800E2EEE5 /* Masonry */,
-				B43D32C21F6FB4D800E2EEE5 /* Pods-AddressBookNameSort */,
-			);
-			path = "Target Support Files";
-			sourceTree = "<group>";
-		};
-		B43D32BB1F6FB4D800E2EEE5 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				B43D32BC1F6FB4D800E2EEE5 /* Info.plist */,
-				B43D32BD1F6FB4D800E2EEE5 /* Masonry-dummy.m */,
-				B43D32BE1F6FB4D800E2EEE5 /* Masonry-prefix.pch */,
-				B43D32BF1F6FB4D800E2EEE5 /* Masonry-umbrella.h */,
-				B43D32C01F6FB4D800E2EEE5 /* Masonry.modulemap */,
-				B43D32C11F6FB4D800E2EEE5 /* Masonry.xcconfig */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		B43D32C21F6FB4D800E2EEE5 /* Pods-AddressBookNameSort */ = {
-			isa = PBXGroup;
-			children = (
-				B43D32C31F6FB4D800E2EEE5 /* Info.plist */,
-				B43D32C41F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.markdown */,
-				B43D32C51F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.plist */,
-				B43D32C61F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-dummy.m */,
-				B43D32C71F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-frameworks.sh */,
-				B43D32C81F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-resources.sh */,
-				B43D32C91F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-umbrella.h */,
-				B43D32CA1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.debug.xcconfig */,
-				B43D32CB1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.modulemap */,
-				B43D32CC1F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.release.xcconfig */,
-			);
-			path = "Pods-AddressBookNameSort";
+			path = TestFunnyViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -567,16 +302,6 @@
 			mainGroup = B42C49131E9F5BC700DFF47C;
 			productRefGroup = B42C491D1E9F5BC700DFF47C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B43D32931F6FB4D800E2EEE5 /* Products */;
-					ProjectRef = B43D32921F6FB4D800E2EEE5 /* AddressBookNameSort.xcodeproj */;
-				},
-				{
-					ProductGroup = B43D32B81F6FB4D800E2EEE5 /* Products */;
-					ProjectRef = B43D32B71F6FB4D800E2EEE5 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B42C491B1E9F5BC700DFF47C /* FunnyHorizontalCollectionView */,
@@ -586,56 +311,15 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B43D33171F6FB4D800E2EEE5 /* AddressBookNameSort.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AddressBookNameSort.app;
-			remoteRef = B43D33161F6FB4D800E2EEE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B43D33241F6FB4D800E2EEE5 /* Masonry.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Masonry.framework;
-			remoteRef = B43D33231F6FB4D800E2EEE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B43D33261F6FB4D800E2EEE5 /* Pods_AddressBookNameSort.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_AddressBookNameSort.framework;
-			remoteRef = B43D33251F6FB4D800E2EEE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		B42C491A1E9F5BC700DFF47C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43D33011F6FB4D800E2EEE5 /* Info.plist in Resources */,
-				B43D32EF1F6FB4D800E2EEE5 /* Podfile in Resources */,
-				B43D33051F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-frameworks.sh in Resources */,
-				B43D32E91F6FB4D800E2EEE5 /* Info.plist in Resources */,
-				B43D33001F6FB4D800E2EEE5 /* Masonry.xcconfig in Resources */,
-				B43D32F21F6FB4D800E2EEE5 /* LICENSE in Resources */,
-				B43D32E71F6FB4D800E2EEE5 /* Main.storyboard in Resources */,
-				B43D32F11F6FB4D800E2EEE5 /* Manifest.lock in Resources */,
 				B42C492F1E9F5BC700DFF47C /* LaunchScreen.storyboard in Resources */,
-				B43D33061F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-resources.sh in Resources */,
-				B43D32FE1F6FB4D800E2EEE5 /* Info.plist in Resources */,
-				B43D33081F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.release.xcconfig in Resources */,
-				B43D32EE1F6FB4D800E2EEE5 /* AddressBookNameSort.xcworkspace in Resources */,
 				B42C492C1E9F5BC700DFF47C /* Assets.xcassets in Resources */,
-				B43D33031F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.plist in Resources */,
-				B43D32F01F6FB4D800E2EEE5 /* Podfile.lock in Resources */,
 				B42C492A1E9F5BC700DFF47C /* Main.storyboard in Resources */,
-				B43D33071F6FB4D800E2EEE5 /* Pods-AddressBookNameSort.debug.xcconfig in Resources */,
-				B43D32E61F6FB4D800E2EEE5 /* LaunchScreen.storyboard in Resources */,
 				B42C495A1E9F5DB000DFF47C /* show01.png in Resources */,
-				B43D32E31F6FB4D800E2EEE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,38 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43D32ED1F6FB4D800E2EEE5 /* ViewController.m in Sources */,
-				B43D32E41F6FB4D800E2EEE5 /* BaseTableView.m in Sources */,
-				B43D33041F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-dummy.m in Sources */,
-				B43D33021F6FB4D800E2EEE5 /* Pods-AddressBookNameSort-acknowledgements.markdown in Sources */,
-				B43D32E51F6FB4D800E2EEE5 /* FunnyData.m in Sources */,
-				B43D32E21F6FB4D800E2EEE5 /* AppDelegate.m in Sources */,
-				B43D32F41F6FB4D800E2EEE5 /* MASConstraint.m in Sources */,
-				B43D32F71F6FB4D800E2EEE5 /* MASViewAttribute.m in Sources */,
-				B43D32E81F6FB4D800E2EEE5 /* BMClientTableView.m in Sources */,
-				B43D32F31F6FB4D800E2EEE5 /* MASCompositeConstraint.m in Sources */,
-				B43D32FB1F6FB4D800E2EEE5 /* View+MASAdditions.m in Sources */,
 				B42C49601E9F6EE300DFF47C /* TwoViewController.m in Sources */,
 				B42C49271E9F5BC700DFF47C /* ViewController.m in Sources */,
 				B42C6F051F00AA1100614F3B /* FunnyTextView.m in Sources */,
-				B43D32FF1F6FB4D800E2EEE5 /* Masonry-dummy.m in Sources */,
 				B42C49571E9F5BFD00DFF47C /* YYBHorizontalCollectionView.m in Sources */,
-				B43D32FD1F6FB4D800E2EEE5 /* README.md in Sources */,
-				B43D32F91F6FB4D800E2EEE5 /* NSArray+MASAdditions.m in Sources */,
-				B43D32FA1F6FB4D800E2EEE5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				B43D32EC1F6FB4D800E2EEE5 /* SortNameTool.m in Sources */,
-				B43D32EB1F6FB4D800E2EEE5 /* NameModel.m in Sources */,
 				B42C6F081F00B0AA00614F3B /* SophiaTestView.m in Sources */,
-				B43D32FC1F6FB4D800E2EEE5 /* ViewController+MASAdditions.m in Sources */,
-				B43D32F81F6FB4D800E2EEE5 /* MASViewConstraint.m in Sources */,
-				B43D32F51F6FB4D800E2EEE5 /* MASConstraintMaker.m in Sources */,
 				B42C49241E9F5BC700DFF47C /* AppDelegate.m in Sources */,
-				B43D32EA1F6FB4D800E2EEE5 /* main.m in Sources */,
 				B42C49581E9F5BFD00DFF47C /* YYBHorizontalCollectionCell.m in Sources */,
-				B43D32F61F6FB4D800E2EEE5 /* MASLayoutConstraint.m in Sources */,
 				B42C49211E9F5BC700DFF47C /* main.m in Sources */,
 				B42C495D1E9F5EB800DFF47C /* YYBHCModel.m in Sources */,
 				B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */,
+				B43D33321F6FB8EF00E2EEE5 /* TestFunnyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,22 +404,6 @@
 				B42C492E1E9F5BC700DFF47C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B43D32841F6FB4D800E2EEE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B43D32851F6FB4D800E2EEE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B43D32861F6FB4D800E2EEE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B43D32871F6FB4D800E2EEE5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
