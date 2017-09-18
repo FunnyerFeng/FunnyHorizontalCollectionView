@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DDD6B86F2B10F1FD5A394F7051E840DBBADD2DFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DE88BF4F16AD6EF5CD48B1993671AA3BE787BB93" : 9223372036854775807,
+    "DDD6B86F2B10F1FD5A394F7051E840DBBADD2DFA" : 9223372036854775807,
+    "A55958ACBDC8BDE0F626700F13EA8805D871EA3A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B790B6A8-58F7-4955-BE79-ECA2AF787316",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DE88BF4F16AD6EF5CD48B1993671AA3BE787BB93" : "FunnyHorizontalCollectionView\/FunnyHorizontalCollectionView\/Module\/AddressBookNameSort\/",
+    "DDD6B86F2B10F1FD5A394F7051E840DBBADD2DFA" : "FunnyHorizontalCollectionView\/",
+    "A55958ACBDC8BDE0F626700F13EA8805D871EA3A" : "FunnyHorizontalCollectionView\/FunnyHorizontalCollectionView\/Module\/FunnySwiftLeaning\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FunnyHorizontalCollectionView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FunnyHorizontalCollectionView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:FunnyFzl\/FunnySwiftLeaning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A55958ACBDC8BDE0F626700F13EA8805D871EA3A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:FunnyFzl\/FunnyHorizontalCollectionView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDD6B86F2B10F1FD5A394F7051E840DBBADD2DFA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:FunnyFzl\/AddressBookNameSort.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE88BF4F16AD6EF5CD48B1993671AA3BE787BB93"
+    }
+  ]
+}

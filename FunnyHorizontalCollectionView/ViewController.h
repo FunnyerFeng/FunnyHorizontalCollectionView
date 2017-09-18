@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SortNameTool.h"
 
 @interface ViewController : UIViewController
 
