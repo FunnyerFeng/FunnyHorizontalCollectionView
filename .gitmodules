@@ -1,0 +1,3 @@
+[submodule "FunnyHorizontalCollectionView/Module/AddressBookNameSort"]
+	path = FunnyHorizontalCollectionView/Module/AddressBookNameSort
+	url = git@github.com:FunnyFzl/AddressBookNameSort.git
