@@ -23,7 +23,6 @@
 		B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C49681E9F7B4400DFF47C /* OneViewController.m */; };
 		B42C6F051F00AA1100614F3B /* FunnyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F041F00AA1100614F3B /* FunnyTextView.m */; };
 		B42C6F081F00B0AA00614F3B /* SophiaTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42C6F071F00B0AA00614F3B /* SophiaTestView.m */; };
-		B43D33321F6FB8EF00E2EEE5 /* TestFunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,8 +74,6 @@
 		B42C6F041F00AA1100614F3B /* FunnyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyTextView.m; sourceTree = "<group>"; };
 		B42C6F061F00B0AA00614F3B /* SophiaTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SophiaTestView.h; sourceTree = "<group>"; };
 		B42C6F071F00B0AA00614F3B /* SophiaTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SophiaTestView.m; sourceTree = "<group>"; };
-		B43D33301F6FB8EF00E2EEE5 /* TestFunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFunnyViewController.h; sourceTree = "<group>"; };
-		B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFunnyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,18 +190,8 @@
 		B43D332E1F6FB8EF00E2EEE5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				B43D332F1F6FB8EF00E2EEE5 /* TestFunnyViewController */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		B43D332F1F6FB8EF00E2EEE5 /* TestFunnyViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B43D33301F6FB8EF00E2EEE5 /* TestFunnyViewController.h */,
-				B43D33311F6FB8EF00E2EEE5 /* TestFunnyViewController.m */,
-			);
-			path = TestFunnyViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +261,7 @@
 				TargetAttributes = {
 					B42C491B1E9F5BC700DFF47C = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 4AEMQ5M8CS;
+						DevelopmentTeam = W22M8JG4TB;
 						ProvisioningStyle = Automatic;
 					};
 					B42C49341E9F5BC700DFF47C = {
@@ -354,7 +341,6 @@
 				B42C49211E9F5BC700DFF47C /* main.m in Sources */,
 				B42C495D1E9F5EB800DFF47C /* YYBHCModel.m in Sources */,
 				B42C49691E9F7B4400DFF47C /* OneViewController.m in Sources */,
-				B43D33321F6FB8EF00E2EEE5 /* TestFunnyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4AEMQ5M8CS;
+				DEVELOPMENT_TEAM = W22M8JG4TB;
 				INFOPLIST_FILE = FunnyHorizontalCollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4AEMQ5M8CS;
+				DEVELOPMENT_TEAM = W22M8JG4TB;
 				INFOPLIST_FILE = FunnyHorizontalCollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

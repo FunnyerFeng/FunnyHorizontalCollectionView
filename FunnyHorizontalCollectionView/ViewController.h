@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TestFunnyViewController.h"
 
 @interface ViewController : UIViewController
 
